@@ -60,7 +60,7 @@ else:
 simMatch = 0
 for i in range(100000):
     #reporting the progress
-    if i % 10000 == 0:
+    if i % 1000 == 0:
         print(i, "simulations run... ")
     birthdays = getBirthdays(numBDays)
     if getMatch(birthdays) is not None:
